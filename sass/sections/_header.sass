@@ -1,0 +1,27 @@
+//Миксин для наведения на ссылку
+=link
+    text-decoration: underline
+    color: #ed8be3
+    transition: 0.6s
+
+.header_wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 41px
+
+.main-nav_list
+    display: flex
+    align-items: center
+    .main-nav_item
+        margin-right: 50px
+        &:last-child
+            margin-right: 0
+        .main-nav_link:hover
+            +link
+
+.button
+    padding: 15px 25px
+    background: none
+    border: 2px solid rgba(255, 31, 138, 1)
+    border-radius: 10px
