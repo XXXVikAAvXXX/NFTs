@@ -22,6 +22,15 @@
 
 .button
     padding: 15px 25px
-    background: none
-    border: 2px solid rgba(255, 31, 138, 1)
     border-radius: 10px
+    &-empty
+        background: none
+        border: 2px solid rgba(255, 31, 138, 1)
+        &:hover
+            border: 2px solid #ff6bc1
+            background: #ffa9e21e
+            transition: 0.5s
+        &:active
+            border: 2px solid #651343
+            background: #fa80d26d
+            transition: 0.2s

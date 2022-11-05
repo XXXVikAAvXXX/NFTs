@@ -65,9 +65,23 @@ h2 {
 
 .button {
   padding: 15px 25px;
+  border-radius: 10px;
+}
+.button-empty {
   background: none;
   border: 2px solid rgb(255, 31, 138);
-  border-radius: 10px;
+}
+.button-empty:hover {
+  border: 2px solid #ff6bc1;
+  background: rgba(255, 169, 226, 0.1176470588);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.button-empty:active {
+  border: 2px solid #651343;
+  background: rgba(250, 128, 210, 0.4274509804);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .promo {
