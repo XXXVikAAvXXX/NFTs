@@ -229,4 +229,62 @@ h2 {
 }
 .organizations_name:hover {
   text-decoration: underline;
+}
+
+.trading-HFTs {
+  min-height: 750px;
+  margin-top: 80px;
+  position: relative;
+}
+.trading-HFTs_descr {
+  margin-top: 14px;
+  width: 480px;
+  line-height: 27px;
+}
+.trading-HFTs_list {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.trading-HFTs_item {
+  position: relative;
+  width: 300px;
+  height: 353px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  background: linear-gradient(90.38deg, #110e14 0.54%, rgba(0, 0, 0, 0) 50.35%), linear-gradient(270deg, #110e14 -4.58%, rgba(0, 0, 0, 0) 49.86%), radial-gradient(126.68% 60.98% at 46.7% 83.17%, #EA5BDB 0%, rgba(69, 47, 67, 0) 100%);
+  margin-left: 54px;
+}
+.trading-HFTs_item:first-child {
+  margin-left: 0;
+}
+.trading-HFTs_item--active {
+  width: 350px;
+  height: 410px;
+}
+.trading-HFTs_icon {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 5%;
+}
+.trading-HFTs_icon--active {
+  top: -50px;
+}
+.trading-HFTs_btn {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }/*# sourceMappingURL=style.css.map */
