@@ -200,4 +200,33 @@ h2 {
   font-size: 40px;
   text-transform: capitalize;
   color: #EA5BDB;
+}
+
+.organizations {
+  margin-top: 120px;
+}
+.organizations_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.organizations_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.organizations_icon {
+  margin-right: 12px;
+}
+.organizations_name:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
