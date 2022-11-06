@@ -287,4 +287,94 @@ h2 {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.recently-listed {
+  margin-top: 80px;
+}
+.recently-listed_title {
+  text-align: center;
+  margin-bottom: 38px;
+}
+.recently-listed_descr {
+  margin: 0 auto;
+  width: 535px;
+  text-align: center;
+  line-height: 27px;
+}
+.recently-listed_list {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.recently-listed_item {
+  width: 338px;
+  height: 254px;
+  border-radius: 10px;
+}
+.recently-listed_item--1 {
+  background: radial-gradient(100% 367.85% at 0% 50%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+.recently-listed_item--2 {
+  width: 338px;
+  height: 405px;
+  background: radial-gradient(207.73% 100% at 57.1% 100%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+}
+.recently-listed_item--3 {
+  background: radial-gradient(100% 367.85% at 100% 50%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+}
+.recently-listed_icon {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: block;
+}
+.recently-listed_icon--1, .recently-listed_icon--3 {
+  margin-top: -70px;
+}
+.recently-listed_icon--2 {
+  margin-bottom: 64px;
+}
+.recently-listed_id {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.recently-listed_info {
+  background: radial-gradient(142.75% 525.12% at 0% 50%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+  -webkit-backdrop-filter: blur(22px);
+          backdrop-filter: blur(22px);
+  width: 276px;
+  height: 74px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.recently-listed_info--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4px;
+}
+.recently-listed_info--wrapper:last-child {
+  margin-bottom: 0;
+}
+.recently-listed_id--number {
+  font-size: 16px;
+  color: #F2F2F2;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
