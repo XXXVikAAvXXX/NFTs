@@ -377,4 +377,82 @@ h2 {
   font-size: 16px;
   color: #F2F2F2;
   opacity: 0.8;
+}
+
+.create-sell {
+  position: relative;
+  margin-top: 127px;
+}
+.create-sell_title {
+  font-size: 49px;
+}
+.create-sell_btn {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.create-sell_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 78px;
+}
+.create-sell_item {
+  width: 338px;
+  height: 254px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 10px;
+}
+.create-sell_item--1 {
+  background: radial-gradient(100% 367.85% at 0% 50%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+}
+.create-sell_item--2 {
+  background: radial-gradient(207.73% 100% at 50% 100%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+}
+.create-sell_item--3 {
+  background: radial-gradient(100% 367.85% at 100% 50%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+}
+.create-sell_icon {
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+.create-sell_info--title {
+  text-align: center;
+  color: #F2F2F2;
+  margin-top: 15px;
+}
+.create-sell_info--descr {
+  width: 313px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 21px;
+  line-height: 21px;
+  font-size: 16px;
+  color: rgba(242, 242, 242, 0.8);
+}
+
+.btn_all {
+  background: radial-gradient(146.11% 537.47% at 100% 50%, rgba(234, 91, 219, 0.5) 0%, rgba(20, 17, 24, 0) 100%);
+  padding: 17px 30px 17px 60px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 10px;
+}
+.btn_all:hover {
+  background: radial-gradient(146.11% 537.47% at 100% 50%, rgba(255, 93, 239, 0.728) 0%, rgba(20, 17, 24, 0) 100%);
+}
+.btn_all:active {
+  background: radial-gradient(146.11% 537.47% at 100% 50%, rgba(255, 93, 239, 0.288) 0%, rgba(20, 17, 24, 0) 100%);
+}
+.btn_all .btn_all--arrow {
+  margin-left: 15px;
 }/*# sourceMappingURL=style.css.map */
